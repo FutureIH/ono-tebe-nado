@@ -3,11 +3,11 @@ display: grid;
 justify-content:space-between ;
 align-content: space-evenly;
 margin: 92px 49px 0 51px;
-grid-template-columns: repeat (1, 388px 628px 240px); 
+grid-template-columns: repeat (1, 388px 628px 240px);
 grid-template-rows: repeat (1, 100%);  
 width: 1340px;
 height: 109px;
-flex-shrink: 0; 
+flex-shrink: 0;
 }
 
 
@@ -28,14 +28,14 @@ flex-shrink: 0;
 font-size: 18px;
 font-weight: 400;
 line-height: 1.35px;
-list-style-type: none; 
+list-style-type: none;
 }
 
 .links-list-item-active {
 font-size: 18px;
 color: #131313;
 margin-left: 32px;
-list-style:circle; 
+list-style:circle;
 }
 
 .link {
@@ -52,18 +52,18 @@ line-height: 1.35;
     display: block;
   }
   
-  .logo-image {
-      width: 148px;
-      height: 105px; 
-      margin-left: 179px;
-      margin-top: 11px;
-    }
+.logo-image {
+  width: 148px;
+  height: 105px; 
+  margin-left: 179px;
+  margin-top: 11px;
+  }
 
-  .header__address { 
-    display: grid;
-    margin: 16px 0 0 14px;
-    grid-template-columns: repeat (1, 100%); 
-    }
+.header__address {
+  display: grid;
+  margin: 16px 0 0 14px;
+  grid-template-columns: repeat (1, 100%);
+  }
 
   .links-list-adress {
    list-style:none;
@@ -80,7 +80,7 @@ line-height: 1.35;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.35; 
+    line-height: 1.35;
     text-underline-offset:4px;
   }
   .adress {
@@ -88,7 +88,7 @@ line-height: 1.35;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.35; 
+    line-height: 1.35;
   }
 
 
@@ -111,7 +111,7 @@ line-height: 1.35;
   flex-shrink: 0;
 }
 
-.cover__title {   
+.cover__title {
 position: relative;
 z-index: 1;
 display: grid;
@@ -318,7 +318,7 @@ padding-left: 40px;
   position: absolute;
   z-index: 1;
   padding-top: 207px;
-  padding-left: 39px; 
+  padding-left: 39px;
 }
 
 .card_type_book {
