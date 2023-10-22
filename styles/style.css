@@ -4,7 +4,7 @@ justify-content:space-between ;
 align-content: space-evenly;
 margin: 92px 49px 0 51px;
 grid-template-columns: repeat (1, 388px 628px 240px);
-grid-template-rows: repeat (1, 100%);  
+grid-template-rows: repeat (1, 100%);
 width: 1340px;
 height: 109px;
 flex-shrink: 0;
@@ -54,7 +54,7 @@ line-height: 1.35;
   
 .logo-image {
   width: 148px;
-  height: 105px; 
+  height: 105px;
   margin-left: 179px;
   margin-top: 11px;
   }
