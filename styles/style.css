@@ -2,7 +2,7 @@
   display: grid;
   justify-content: space-between;
   align-content: space-evenly;
-  margin: 92px 49px 0 51px;
+  margin: 92px 49px 0 55px;
   grid-template-columns: repeat(1, 388px 628px 240px);
   grid-template-rows: repeat(1, 100%);
   width: 1340px;
@@ -109,7 +109,6 @@
   background-size: cover;
   position: relative;
   margin-top: 90px;
-  margin-left: -13px;
   width: 1440px;
   min-height: 757px;
   flex-shrink: 0;
@@ -131,19 +130,18 @@
   font-style: normal;
   font-weight: 700;
   line-height: 115%; /* 115px */
-  letter-spacing: 22px;
+  letter-spacing: 24px;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
   margin-top: 170px;
-  margin-left: 70px;
+  margin-left: 58px;
 }
 .aligned-text_center {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-
   font-family: Raleway, sans-serif;
   font-size: 100px;
   font-style: normal;
@@ -154,7 +152,7 @@
   position: relative;
   z-index: 1;
   margin-top: 12px;
-  margin-right: -5px;
+  margin-right: 21px;
 }
 
 .aligned-text_right {
@@ -172,7 +170,7 @@
   position: relative;
   z-index: 1;
   margin-top: 4px;
-  margin-right: 11px;
+  margin-right: 23px;
 }
 
 .cover__description {
@@ -196,7 +194,7 @@
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   text-align: center;
-  width: 633px;
+  min-width: 633px;
   margin-right: 79px;
   margin-top: 4px;
   word-spacing: 17px;
@@ -205,7 +203,7 @@
 .bet-button {
   width: 257px;
   min-height: 52px;
-  margin-right: 34px;
+  margin-right: 44px;
   margin-top: -8px;
   border: 1px solid #fff;
   color: #fff;
@@ -225,7 +223,7 @@
   width: 1340px;
   min-height: 579px;
   flex-shrink: 0;
-  margin: 177px 50px 50px;
+  margin: 177px 55px 50px;
 }
 
 .lots__heading {
@@ -379,7 +377,6 @@
   text-transform: uppercase;
   margin-bottom: 73px;
   margin-top: -138px;
-  padding-left: 53px;
 }
 
 .about__text {
@@ -388,18 +385,16 @@
   gap: 25px;
   min-width: 885px;
   margin-right: 50px;
-  margin-left: 455px;
+  margin-left: 510px;
   text-align: left;
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  font-style: normal;
-  line-height: normal;
 }
 .about-text {
-  margin-bottom: -25px;
-  padding-left: 54px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer {
@@ -415,7 +410,7 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin-top: 93px;
+  margin-top: 91px;
   margin-left: 2px;
   text-align: center;
   list-style-type: none;
@@ -434,12 +429,12 @@
   gap: 48px;
   width: 240px;
   height: 48px;
-  margin-top: 184px;
-  margin-right: 54px;
+  margin-top: 182px;
+  margin-right: 52px;
 }
 .footer-contacts {
-  margin-top: 185px;
-  margin-left: -55px;
+  margin-top: 184px;
+  margin-left: -53px;
   color: #000;
   font-family: Raleway;
   font-size: 18px;
